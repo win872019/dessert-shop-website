@@ -1,0 +1,14 @@
+@import "reset";
+@import "variables";
+@import "header";
+@import "home-content";
+@import "product";
+@import "subscribe";
+@import "footer";
+
+
+p{
+    color: $green-b;
+    line-height: 40px;
+}
+

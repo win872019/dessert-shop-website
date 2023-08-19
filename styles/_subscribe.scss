@@ -1,0 +1,88 @@
+
+.sub{
+    background-color:$green-a;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+.title{
+    display: flex;
+    font-size: 24px;
+    gap: 20px;
+    
+    p{
+        color: $secondary;
+    }
+}
+.only-pic-mail{
+    width: 40px;
+    height: 40px;
+}
+
+.mail-addr{
+    background-color: $secondary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+
+    input{
+        border: 0px;
+        width: 75%;
+        background-color: $secondary;
+        
+    }
+    button{
+        border: 0px;
+        background-color: $yellow;
+        height: 100%;
+        cursor: pointer;
+    }
+ 
+    label{
+        img{
+            margin-left: 20px;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .sub{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 30px;
+        flex-wrap: wrap; 
+      
+    }
+    .title{
+        gap: 5px;
+        align-items: center;
+        p{
+            white-space: nowrap;
+            font-size: 18px;
+           
+            
+        }
+    }
+    .only-pic-mail{
+        display: block;
+        
+    }
+    .mail-addr{
+        width: 315px;
+        height: 56px;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .sub{
+        margin-top: 20px;
+
+    }
+
+}
