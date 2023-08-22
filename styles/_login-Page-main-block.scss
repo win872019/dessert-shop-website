@@ -1,0 +1,44 @@
+main{
+    display: flex;
+    width: 100%;
+}
+
+.hide{
+    border: 2px solid red;
+    display: none;
+}
+
+
+.membership-login{
+    border: 2px solid blue;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input{
+        
+        &:not(:last-child){
+            width: 84%;
+        }
+        border: 2px solid red;
+    }
+.check{
+    input{
+        display: inline;
+    }
+    label{
+        display: inline;
+    }
+    border: 2px solid blue;
+    display: block;
+    justify-content: space-between;
+}
+}
+
+
+
+.sigh-in-other-way{
+    border: 2px solid green;
+    width: 38%;
+}
