@@ -251,22 +251,22 @@ main {
   background-position: center;
 }
 .pic.one {
-  background-image: url("/image/p-1.png");
+  background-image: url("../image/p-1.png");
 }
 .pic.two {
-  background-image: url("/image/p-2.png");
+  background-image: url("../image/p-2.png");
 }
 .pic.three {
-  background-image: url("/image/p-3.png");
+  background-image: url("../image/p-3.png");
 }
 .pic.four {
-  background-image: url("/image/p-4.png");
+  background-image: url("../image/p-4.png");
 }
 .pic.five {
-  background-image: url("/image/p-5.png");
+  background-image: url("../image/p-5.png");
 }
 .pic.six {
-  background-image: url("/image/p-6.png");
+  background-image: url("../image/p-6.png");
 }
 .pic img {
   width: 25px;
