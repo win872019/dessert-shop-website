@@ -171,6 +171,12 @@ main {
     .banner-pic{
       margin-bottom: 30px;
     }
+    .menu{
+      li{
+        font-size: 18px;
+      }
+      
+    }
 
     .products{
       .product-2,.product-3{
@@ -199,6 +205,9 @@ main {
 
       .menu{
         width: 100%;
+        li{
+          font-size: 20px;
+        }
       }
       .products{
         width: 100%;

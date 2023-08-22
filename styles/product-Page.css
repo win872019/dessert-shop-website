@@ -316,6 +316,9 @@ main {
   .banner-pic {
     margin-bottom: 30px;
   }
+  .menu li {
+    font-size: 18px;
+  }
   .products .product-2, .products .product-3 {
     display: none;
   }
@@ -338,6 +341,9 @@ main {
   }
   main .menu {
     width: 100%;
+  }
+  main .menu li {
+    font-size: 20px;
   }
   main .products {
     width: 100%;
