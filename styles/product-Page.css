@@ -158,9 +158,6 @@ header li {
   display: block;
   margin: 30px auto 60px auto;
 }
-.banner-pic .hide {
-  display: none;
-}
 
 main {
   display: flex;
